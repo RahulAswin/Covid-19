@@ -11,3 +11,4 @@ Run this in terminal to clone this repo:
 git clone https://github.com/RahulAswin/Covid-19
 
 If u dont have git. install it by pkg install git.
+.
