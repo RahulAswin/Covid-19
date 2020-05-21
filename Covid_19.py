@@ -1,11 +1,14 @@
 from covid import Covid
+import subprocess
+import sys
 
 covid=Covid()
 
 print("\nCOVID - 19 INFORMATION\n")
 print("1 . Information Of Covid-19 in World")
 print("2 . Information Of An Particular Country")
-print("3 . Get All Data(188 Countries)\n")
+print("3 . Get All Data(188 Countries)")
+print("4 . Install Covid Package\n")
 
 a=int(input("Enter Any Option : "))
 
@@ -32,3 +35,5 @@ elif a==3:
     b=covid.get_data()
     for x in b:
         print(x)
+elif a==4:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "covid"])
