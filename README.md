@@ -5,4 +5,4 @@ Informations in this program is obtained from the JOHN HOPKINS UNIVERSITY and WO
 these are the updated informations which has been updating every hour.
 
 package I used in this program is covid
-within the program itself there is a installer
+For this program the package "covidx is needed.You can install the pacakage By running the requirements.py file.
